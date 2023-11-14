@@ -1,2 +1,3 @@
 touch Valencia.txt Empate.txt Levante.txt
+sed -i 's/ /_/g' derbi.txt
 sed 's/,/ /g' derbi.txt
