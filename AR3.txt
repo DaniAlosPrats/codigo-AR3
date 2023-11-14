@@ -5,3 +5,6 @@ cat derbi.txt | awk '{print $3, $4, $5}'| grep Valencia | sort -k3 | awk '{print
 sed -i 's/ /_ /g' derbi.txt
 sed -i 's/,/  /g' derbi.txt
 cat derbi.txt | awk '{print $3, $4, $5}'| grep Levante | sort -k3 | awk '{print $3, $2}' > Levante.txt
+sed -i 's/ /_ /g' derbi.txt
+ sed -i 's/,/  /g' derbi.txt
+ cat derbi.txt | awk '{print $3, $4, $5}'| grep empate | sort -k3 | awk '{print $3, $2}' > Empate.txt
