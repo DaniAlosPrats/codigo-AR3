@@ -1,1 +1,2 @@
 touch Valencia.txt Empate.txt Levante.txt
+sed 's/,/ /g' derbi.txt
